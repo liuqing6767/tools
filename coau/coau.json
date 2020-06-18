@@ -1,0 +1,6 @@
+{
+    "watch_dir": "test/",
+    "excludes": ["main", "test/b", ".swp$", "~$", ".swx$"],
+    "check_cmd" : "go build -o main main.go",
+    "run_cmd" : "./main"
+}
